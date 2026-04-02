@@ -1,11 +1,9 @@
-Based on your repository structure, here's a **single-file README code** that you can copy and paste directly into your `README.md`:
-
 ```markdown
 # JKJAAC - Jammu & Kashmir Joint Awami Action Committee
 
-![HTML](https://img.shields.io/badge/HTML-45.2%25-orange)
-![CSS](https://img.shields.io/badge/CSS-44.5%25-blue)
-![JavaScript](https://img.shields.io/badge/JavaScript-10.3%25-yellow)
+!\[HTML\](https://img.shields.io/badge/HTML-45.2%25-orange)
+!\[CSS\](https://img.shields.io/badge/CSS-44.5%25-blue)
+!\[JavaScript\](https://img.shields.io/badge/JavaScript-10.3%25-yellow)
 
 ## 📌 About
 
@@ -72,7 +70,7 @@ start index.html    # Windows
 
 **Engineer Sohaib Ishaque**
 
-- GitHub: [@Engineer-Sohaib](https://github.com/Engineer-Sohaib)
+- GitHub: \[@Engineer-Sohaib\](https://github.com/Engineer-Sohaib)
 
 ## 📝 Update History
 
@@ -102,3 +100,5 @@ This is a **complete, single-file README** that you can copy and paste directly.
 
 Just replace your existing `README.md` content with this code block.
 ```
+
+](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
