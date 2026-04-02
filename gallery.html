@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery — JKJAAC</title>
+    <link
+      rel="icon"
+      href="https://jkjaac.co/wp-content/uploads/2026/03/cropped-JKJAAC-Logo-192x192.png"
+      sizes="32x32" />
+    <link
+      rel="icon"
+      href="https://kfmovement.com/wp-content/uploads/2025/02/cropped-Rounded-192x192.png"
+      sizes="192x192" />
+    <link
+      rel="apple-touch-icon"
+      href="https://kfmovement.com/wp-content/uploads/2025/02/cropped-Rounded-180x180.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500&family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bundle.css" />
+  </head>
+  <body>
+    <nav class="nav" id="nav">
+      <a href="index.html" class="nav-logo">
+        <img
+          src="https://jkjaac.co/wp-content/uploads/2026/03/cropped-JKJAAC-Logo.png"
+          alt="JKJAAC LOGO" />
+      </a>
+      <div class="nav-default">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li class="has-dropdown">
+            <a href="about">
+              About
+              <span class="nav-arrow"
+                ><i class="ri-arrow-down-s-line"></i>
+              </span>
+            </a>
+            <ul class="dropdown">
+              <li><a href="about.html">About JKJAAC</a></li>
+              <li><a href="leadership.html">Leadership </a></li>
+            </ul>
+          </li>
+          <li><a href="struggles.html">Struggles </a></li>
+          <li><a href="38-point-charter.html">38-Point Charter </a></li>
+          <li>
+            <a href="negotiations.html">Negotiations</a>
+          </li>
+          <li class="has-dropdown">
+            <a href="blogs.html" class="active">
+              Media
+              <span class="nav-arrow">
+                <i class="ri-arrow-down-s-line"></i>
+              </span>
+            </a>
+            <ul class="dropdown">
+              <li><a href="blogs.html">Blogs</a></li>
+              <li><a href="gallery.html" class="active">Gallery</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="faqs.html">Faqs</a></li>
+            </ul>
+          </li>
+          <li class="nav-mobile-donate-item">
+            <a href="contact.html">
+              Contact Us <i class="ri-arrow-right-long-line"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="right-menu">
+        <a class="nav-cta" href="contact.html">
+          contact us
+          <span class="nav-cta-arrow">
+            <i class="ri-arrow-right-long-line"></i>
+          </span>
+        </a>
+        <div class="nav-hamburger" id="navToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-grid"></div>
+      <div class="hero-content">
+        <div class="hero-eyebrow">Direct & Descriptive</div>
+        <h1 class="hero-title">
+          The Movement <span class="acc"> in Images</span>
+        </h1>
+        <p class="hero-sub">
+          A visual record of JKJAAC's protests, rallies, negotiations, and the
+          people behind the movement — from Rawalakot to Muzaffarabad.
+        </p>
+      </div>
+      <div class="scroll-cue">Scroll</div>
+    </section>
+    <div class="gallery-controls">
+      <div class="filter-pills">
+        <span class="filter-label">Filter</span>
+        <button class="filter-pill active" data-filter="all">All (19)</button>
+        <button class="filter-pill" data-filter="protest">Protest</button>
+        <button class="filter-pill" data-filter="leaders">Leaders</button>
+        <button class="filter-pill" data-filter="members">Members</button>
+        <button class="filter-pill" data-filter="heritage">Heritage</button>
+        <button class="filter-pill" data-filter="banners">Banners</button>
+        <button class="filter-pill" data-filter="advocacy">Advocacy</button>
+        <button class="filter-pill" data-filter="gallery">Gallery</button>
+      </div>
+      <div class="controls-right">
+        <span class="gallery-count" id="galleryCount">19 photos</span>
+        <div class="col-btns">
+          <button class="col-btn" data-cols="2" title="2 columns">
+            <svg viewBox="0 0 12 12">
+              <rect x="0" y="0" width="5" height="12" rx="1" />
+              <rect x="7" y="0" width="5" height="12" rx="1" />
+            </svg>
+          </button>
+          <button class="col-btn" data-cols="3" title="3 columns">
+            <svg viewBox="0 0 12 12">
+              <rect x="0" y="0" width="3" height="12" rx="1" />
+              <rect x="4.5" y="0" width="3" height="12" rx="1" />
+              <rect x="9" y="0" width="3" height="12" rx="1" />
+            </svg>
+          </button>
+          <button class="col-btn active" data-cols="4" title="4 columns">
+            <svg viewBox="0 0 12 12">
+              <rect x="0" y="0" width="2" height="12" rx="1" />
+              <rect x="3.3" y="0" width="2" height="12" rx="1" />
+              <rect x="6.6" y="0" width="2" height="12" rx="1" />
+              <rect x="10" y="0" width="2" height="12" rx="1" />
+            </svg>
+          </button>
+          <button class="col-btn" data-cols="5" title="5 columns">
+            <svg viewBox="0 0 12 12">
+              <rect x="0" y="0" width="1.6" height="12" rx="1" />
+              <rect x="2.6" y="0" width="1.6" height="12" rx="1" />
+              <rect x="5.2" y="0" width="1.6" height="12" rx="1" />
+              <rect x="7.8" y="0" width="1.6" height="12" rx="1" />
+              <rect x="10.4" y="0" width="1.6" height="12" rx="1" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="masonry-wrap">
+      <div class="masonry-grid" id="galleryGrid">
+        <div
+          class="pin-card"
+          data-cat="protest"
+          data-title="Boycott Government Call"
+          data-loc="Azad Kashmir"
+          data-desc="JKJAAC announces boycott of government. Part of the media archive.">
+          <div class="pin-img-wrap">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/jkjaac-boycott-govet-240x300.webp"
+              alt="JKJAAC Boycott Government"
+              loading="lazy"
+              onerror="
+                this.closest('.pin-img-wrap').classList.add('img-err')
+              " />
+            <div class="pin-overlay">
+              <div class="pin-ov-cat">Protest · Call</div>
+              <div class="pin-ov-title">Boycott Government Call</div>
+              <div class="pin-ov-loc">Azad Kashmir</div>
+            </div>
+            <div class="pin-tag">Protest</div>
+            <div class="pin-zoom"><i class="ri-global-line"></i></div>
+          </div>
+          <div class="pin-footer">
+            <span class="pin-footer-title">Boycott Government Call</span
+            ><span class="pin-footer-loc">Azad Kashmir</span>
+          </div>
+        </div>
+        <div
+          class="pin-card"
+          data-cat="heritage flag"
+          data-title="Our Flag"
+          data-loc="Jammu & Kashmir"
+          data-desc="The flag representing the identity and struggle. Part of the JKJAAC archive.">
+          <div class="pin-img-wrap">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/our-flag-240x300.webp"
+              alt="Our Flag"
+              loading="lazy"
+              onerror="
+                this.closest('.pin-img-wrap').classList.add('img-err')
+              " />
+            <div class="pin-overlay">
+              <div class="pin-ov-cat">Heritage · Flag</div>
+              <div class="pin-ov-title">Our Flag</div>
+              <div class="pin-ov-loc">Jammu & Kashmir</div>
+            </div>
+            <div class="pin-tag">Heritage</div>
+            <div class="pin-zoom"><i class="ri-global-line"></i></div>
+          </div>
+          <div class="pin-footer">
+            <span class="pin-footer-title">Our Flag</span
+            ><span class="pin-footer-loc">Jammu & Kashmir</span>
+          </div>
+        </div>
+        <div
+          class="pin-card"
+          data-cat="protest strikes"
+          data-title="JKJAAC Strikes"
+          data-loc="Azad Kashmir"
+          data-desc="General strikes called by JKJAAC. Part of the media archive.">
+          <div class="pin-img-wrap">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/jkjaac-strikes-240x300.webp"
+              alt="JKJAAC Strikes"
+              loading="lazy"
+              onerror="
+                this.closest('.pin-img-wrap').classList.add('img-err')
+              " />
+            <div class="pin-overlay">
+              <div class="pin-ov-cat">Protest · Strikes</div>
+              <div class="pin-ov-title">JKJAAC Strikes</div>
+              <div class="pin-ov-loc">Azad Kashmir</div>
+            </div>
+            <div class="pin-tag">Protest</div>
+            <div class="pin-zoom"><i class="ri-global-line"></i></div>
+          </div>
+          <div class="pin-footer">
+            <span class="pin-footer-title">JKJAAC Strikes</span
+            ><span class="pin-footer-loc">Azad Kashmir</span>
+          </div>
+        </div>
+        <div
+          class="pin-card"
+          data-cat="leader"
+          data-title="Shaukat Nawaz"
+          data-loc="Jammu & Kashmir"
+          data-desc="Shaukat Nawaz, a key figure in the movement. Part of the JKJAAC archive.">
+          <div class="pin-img-wrap">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/shaukat-nawaz-225x300.webp"
+              alt="Shaukat Nawaz"
+              loading="lazy"
+              onerror="
+                this.closest('.pin-img-wrap').classList.add('img-err')
+              " />
+            <div class="pin-overlay">
+              <div class="pin-ov-cat">Leader</div>
+              <div class="pin-ov-title">Shaukat Nawaz</div>
+              <div class="pin-ov-loc">Jammu & Kashmir</div>
+            </div>
+            <div class="pin-tag">Leader</div>
+            <div class="pin-zoom"><i class="ri-global-line"></i></div>
+          </div>
+          <div class="pin-footer">
+            <span class="pin-footer-title">Shaukat Nawaz</span
+            ><span class="pin-footer-loc">Jammu & Kashmir</span>
+          </div>
+        </div>
+        <div
+          class="pin-card"
+          data-cat="protest"
+          data-title="90 Days of Resistance"
+          data-loc="Azad Kashmir"
+          data-desc="Marking 90 days of the movement. Part of the JKJAAC media archive.">
+          <div class="pin-img-wrap">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/jkjaac-90days-240x300.webp"
+              alt="JKJAAC 90 Days"
+              loading="lazy"
+              onerror="
+                this.closest('.pin-img-wrap').classList.add('img-err')
+              " />
+            <div class="pin-overlay">
+              <div class="pin-ov-cat">Protest · Resistance</div>
+              <div class="pin-ov-title">90 Days of Resistance</div>
+              <div class="pin-ov-loc">Azad Kashmir</div>
+            </div>
+            <div class="pin-tag">Protest</div>
+            <div class="pin-zoom"><i class="ri-global-line"></i></div>
+          </div>
+          <div class="pin-footer">
+            <span class="pin-footer-title">90 Days of Resistance</span
+            ><span class="pin-footer-loc">Azad Kashmir</span>
+          </div>
+        </div>
+        <div
+          class="pin-card"
+          data-cat="region"
+          data-title="Area of Jammu Kashmir"
+          data-loc="Jammu & Kashmir"
+          data-desc="Map highlighting the region of Jammu Kashmir. Part of the archive.">
+          <div class="pin-img-wrap">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/area-jk-242x300.webp"
+              alt="Area of Jammu Kashmir"
+              loading="lazy"
+              onerror="
+                this.closest('.pin-img-wrap').classList.add('img-err')
+              " />
+            <div class="pin-overlay">
+              <div class="pin-ov-cat">Region · Map</div>
+              <div class="pin-ov-title">Area of Jammu Kashmir</div>
+              <div class="pin-ov-loc">Jammu & Kashmir</div>
+            </div>
+            <div class="pin-tag">Region</div>
+            <div class="pin-zoom"><i class="ri-global-line"></i></div>
+          </div>
+          <div class="pin-footer">
+            <span class="pin-footer-title">Area of Jammu Kashmir</span
+            ><span class="pin-footer-loc">Jammu & Kashmir</span>
+          </div>
+        </div>
+        <div
+          class="pin-card"
+          data-cat="leader"
+          data-title="Maqbool Bhutt"
+          data-loc="Jammu & Kashmir"
+          data-desc="Maqbool Bhutt, a prominent leader. Part of the JKJAAC archive.">
+          <div class="pin-img-wrap">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/maqbool-bhutt-1-240x300.webp"
+              alt="Maqbool Bhutt"
+              loading="lazy"
+              onerror="
+                this.closest('.pin-img-wrap').classList.add('img-err')
+              " />
+            <div class="pin-overlay">
+              <div class="pin-ov-cat">Leader</div>
+              <div class="pin-ov-title">Maqbool Bhutt</div>
+              <div class="pin-ov-loc">Jammu & Kashmir</div>
+            </div>
+            <div class="pin-tag">Leader</div>
+            <div class="pin-zoom"><i class="ri-global-line"></i></div>
+          </div>
+          <div class="pin-footer">
+            <span class="pin-footer-title">Maqbool Bhutt</span
+            ><span class="pin-footer-loc">Jammu & Kashmir</span>
+          </div>
+        </div>
+        <div
+          class="pin-card"
+          data-cat="gallery"
+          data-title="JKJAAC Archive Image"
+          data-loc="Azad Kashmir"
+          data-desc="A general image from the JKJAAC gallery archive.">
+          <div class="pin-img-wrap">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/jkjaac-gallery-240x300.webp"
+              alt="JKJAAC Gallery"
+              loading="lazy"
+              onerror="
+                this.closest('.pin-img-wrap').classList.add('img-err')
+              " />
+            <div class="pin-overlay">
+              <div class="pin-ov-cat">Gallery</div>
+              <div class="pin-ov-title">JKJAAC Archive Image</div>
+              <div class="pin-ov-loc">Azad Kashmir</div>
+            </div>
+            <div class="pin-tag">Gallery</div>
+            <div class="pin-zoom"><i class="ri-global-line"></i></div>
+          </div>
+          <div class="pin-footer">
+            <span class="pin-footer-title">JKJAAC Archive Image</span
+            ><span class="pin-footer-loc">Azad Kashmir</span>
+          </div>
+        </div>
+        <div
+          class="pin-card"
+          data-cat="members"
+          data-title="JKJAAC Member"
+          data-loc="Azad Kashmir"
+          data-desc="A member of the joint action committee. Part of the JKJAAC archive.">
+          <div class="pin-img-wrap">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/MEMBER1-e1773700256815-300x197.jpg"
+              alt="JKJAAC Member"
+              loading="lazy"
+              onerror="
+                this.closest('.pin-img-wrap').classList.add('img-err')
+              " />
+            <div class="pin-overlay">
+              <div class="pin-ov-cat">Members · People</div>
+              <div class="pin-ov-title">JKJAAC Member</div>
+              <div class="pin-ov-loc">Azad Kashmir</div>
+            </div>
+            <div class="pin-tag">Members</div>
+            <div class="pin-zoom"><i class="ri-global-line"></i></div>
+          </div>
+          <div class="pin-footer">
+            <span class="pin-footer-title">JKJAAC Member</span
+            ><span class="pin-footer-loc">Azad Kashmir</span>
+          </div>
+        </div>
+        <div
+          class="pin-card"
+          data-cat="protest"
+          data-title="JKJAAC Protest"
+          data-loc="Azad Kashmir"
+          data-desc="Scenes from a protest by JKJAAC. Part of the media archive.">
+          <div class="pin-img-wrap">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/jkjaac-7-e1773700273871-300x197.jpeg"
+              alt="JKJAAC Protest"
+              loading="lazy"
+              onerror="
+                this.closest('.pin-img-wrap').classList.add('img-err')
+              " />
+            <div class="pin-overlay">
+              <div class="pin-ov-cat">Protest</div>
+              <div class="pin-ov-title">JKJAAC Protest</div>
+              <div class="pin-ov-loc">Azad Kashmir</div>
+            </div>
+            <div class="pin-tag">Protest</div>
+            <div class="pin-zoom"><i class="ri-global-line"></i></div>
+          </div>
+          <div class="pin-footer">
+            <span class="pin-footer-title">JKJAAC Protest</span
+            ><span class="pin-footer-loc">Azad Kashmir</span>
+          </div>
+        </div>
+        <div
+          class="pin-card"
+          data-cat="protest"
+          data-title="JKJAAC Demonstration"
+          data-loc="Azad Kashmir"
+          data-desc="A demonstration organized by JKJAAC. Part of the media archive.">
+          <div class="pin-img-wrap">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/jkjaac-6-e1773700291403-300x197.jpeg"
+              alt="JKJAAC Demonstration"
+              loading="lazy"
+              onerror="
+                this.closest('.pin-img-wrap').classList.add('img-err')
+              " />
+            <div class="pin-overlay">
+              <div class="pin-ov-cat">Protest · Demonstration</div>
+              <div class="pin-ov-title">JKJAAC Demonstration</div>
+              <div class="pin-ov-loc">Azad Kashmir</div>
+            </div>
+            <div class="pin-tag">Protest</div>
+            <div class="pin-zoom"><i class="ri-global-line"></i></div>
+          </div>
+          <div class="pin-footer">
+            <span class="pin-footer-title">JKJAAC Demonstration</span
+            ><span class="pin-footer-loc">Azad Kashmir</span>
+          </div>
+        </div>
+        <div
+          class="pin-card"
+          data-cat="protest"
+          data-title="JKJAAC Gathering"
+          data-loc="Azad Kashmir"
+          data-desc="A large public gathering by JKJAAC. Part of the media archive.">
+          <div class="pin-img-wrap">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/jkjaac-5-e1773700307781-300x197.jpeg"
+              alt="JKJAAC Gathering"
+              loading="lazy"
+              onerror="
+                this.closest('.pin-img-wrap').classList.add('img-err')
+              " />
+            <div class="pin-overlay">
+              <div class="pin-ov-cat">Protest · Gathering</div>
+              <div class="pin-ov-title">JKJAAC Gathering</div>
+              <div class="pin-ov-loc">Azad Kashmir</div>
+            </div>
+            <div class="pin-tag">Protest</div>
+            <div class="pin-zoom"><i class="ri-global-line"></i></div>
+          </div>
+          <div class="pin-footer">
+            <span class="pin-footer-title">JKJAAC Gathering</span
+            ><span class="pin-footer-loc">Azad Kashmir</span>
+          </div>
+        </div>
+        <div
+          class="pin-card"
+          data-cat="protest"
+          data-title="JKJAAC Rally"
+          data-loc="Azad Kashmir"
+          data-desc="A rally held by JKJAAC. Part of the media archive.">
+          <div class="pin-img-wrap">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/jkjaac-4-e1773700322635-300x197.jpeg"
+              alt="JKJAAC Rally"
+              loading="lazy"
+              onerror="
+                this.closest('.pin-img-wrap').classList.add('img-err')
+              " />
+            <div class="pin-overlay">
+              <div class="pin-ov-cat">Protest · Rally</div>
+              <div class="pin-ov-title">JKJAAC Rally</div>
+              <div class="pin-ov-loc">Azad Kashmir</div>
+            </div>
+            <div class="pin-tag">Protest</div>
+            <div class="pin-zoom"><i class="ri-global-line"></i></div>
+          </div>
+          <div class="pin-footer">
+            <span class="pin-footer-title">JKJAAC Rally</span
+            ><span class="pin-footer-loc">Azad Kashmir</span>
+          </div>
+        </div>
+        <div
+          class="pin-card"
+          data-cat="protest"
+          data-title="JKJAAC March"
+          data-loc="Azad Kashmir"
+          data-desc="A protest march by JKJAAC. Part of the media archive.">
+          <div class="pin-img-wrap">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/jkjaac-3-e1773700341303-300x196.jpeg"
+              alt="JKJAAC March"
+              loading="lazy"
+              onerror="
+                this.closest('.pin-img-wrap').classList.add('img-err')
+              " />
+            <div class="pin-overlay">
+              <div class="pin-ov-cat">Protest · March</div>
+              <div class="pin-ov-title">JKJAAC March</div>
+              <div class="pin-ov-loc">Azad Kashmir</div>
+            </div>
+            <div class="pin-tag">Protest</div>
+            <div class="pin-zoom"><i class="ri-global-line"></i></div>
+          </div>
+          <div class="pin-footer">
+            <span class="pin-footer-title">JKJAAC March</span
+            ><span class="pin-footer-loc">Azad Kashmir</span>
+          </div>
+        </div>
+        <div
+          class="pin-card"
+          data-cat="protest"
+          data-title="JKJAAC Sit-in"
+          data-loc="Azad Kashmir"
+          data-desc="A sit-in protest by JKJAAC. Part of the media archive.">
+          <div class="pin-img-wrap">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/jkjaac-2-e1773700356103-300x183.jpeg"
+              alt="JKJAAC Sit-in"
+              loading="lazy"
+              onerror="
+                this.closest('.pin-img-wrap').classList.add('img-err')
+              " />
+            <div class="pin-overlay">
+              <div class="pin-ov-cat">Protest · Sit-in</div>
+              <div class="pin-ov-title">JKJAAC Sit-in</div>
+              <div class="pin-ov-loc">Azad Kashmir</div>
+            </div>
+            <div class="pin-tag">Protest</div>
+            <div class="pin-zoom"><i class="ri-global-line"></i></div>
+          </div>
+          <div class="pin-footer">
+            <span class="pin-footer-title">JKJAAC Sit-in</span
+            ><span class="pin-footer-loc">Azad Kashmir</span>
+          </div>
+        </div>
+        <div
+          class="pin-card"
+          data-cat="protest"
+          data-title="JKJAAC Procession"
+          data-loc="Azad Kashmir"
+          data-desc="A procession by JKJAAC. Part of the media archive.">
+          <div class="pin-img-wrap">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/jkjaac-1-e1773700375917-300x196.jpeg"
+              alt="JKJAAC Procession"
+              loading="lazy"
+              onerror="
+                this.closest('.pin-img-wrap').classList.add('img-err')
+              " />
+            <div class="pin-overlay">
+              <div class="pin-ov-cat">Protest · Procession</div>
+              <div class="pin-ov-title">JKJAAC Procession</div>
+              <div class="pin-ov-loc">Azad Kashmir</div>
+            </div>
+            <div class="pin-tag">Protest</div>
+            <div class="pin-zoom"><i class="ri-global-line"></i></div>
+          </div>
+          <div class="pin-footer">
+            <span class="pin-footer-title">JKJAAC Procession</span
+            ><span class="pin-footer-loc">Azad Kashmir</span>
+          </div>
+        </div>
+        <div
+          class="pin-card"
+          data-cat="members"
+          data-title="JKJAAC Member Portrait"
+          data-loc="Azad Kashmir"
+          data-desc="Portrait of a JKJAAC member. Part of the media archive.">
+          <div class="pin-img-wrap">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/jkjaac-e1773700394317-300x198.jpeg"
+              alt="JKJAAC Member Portrait"
+              loading="lazy"
+              onerror="
+                this.closest('.pin-img-wrap').classList.add('img-err')
+              " />
+            <div class="pin-overlay">
+              <div class="pin-ov-cat">Members · Portrait</div>
+              <div class="pin-ov-title">JKJAAC Member Portrait</div>
+              <div class="pin-ov-loc">Azad Kashmir</div>
+            </div>
+            <div class="pin-tag">Members</div>
+            <div class="pin-zoom"><i class="ri-global-line"></i></div>
+          </div>
+          <div class="pin-footer">
+            <span class="pin-footer-title">JKJAAC Member Portrait</span
+            ><span class="pin-footer-loc">Azad Kashmir</span>
+          </div>
+        </div>
+        <div
+          class="pin-card"
+          data-cat="members"
+          data-title="JKJAAC Activist"
+          data-loc="Azad Kashmir"
+          data-desc="An activist from the JKJAAC movement. Part of the media archive.">
+          <div class="pin-img-wrap">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/MEMBER1-e1773700410978-300x186.jpeg"
+              alt="JKJAAC Activist"
+              loading="lazy"
+              onerror="
+                this.closest('.pin-img-wrap').classList.add('img-err')
+              " />
+            <div class="pin-overlay">
+              <div class="pin-ov-cat">Members · Activist</div>
+              <div class="pin-ov-title">JKJAAC Activist</div>
+              <div class="pin-ov-loc">Azad Kashmir</div>
+            </div>
+            <div class="pin-tag">Members</div>
+            <div class="pin-zoom"><i class="ri-global-line"></i></div>
+          </div>
+          <div class="pin-footer">
+            <span class="pin-footer-title">JKJAAC Activist</span
+            ><span class="pin-footer-loc">Azad Kashmir</span>
+          </div>
+        </div>
+        <div
+          class="pin-card"
+          data-cat="banner"
+          data-title="JKJAAC Banner"
+          data-loc="Jammu & Kashmir"
+          data-desc="Official banner of the Jammu Kashmir Joint Action Committee. Part of the archive.">
+          <div class="pin-img-wrap">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/Jammu-kashmir-joint-action-banner-300x300.png"
+              alt="JKJAAC Banner"
+              loading="lazy"
+              onerror="
+                this.closest('.pin-img-wrap').classList.add('img-err')
+              " />
+            <div class="pin-overlay">
+              <div class="pin-ov-cat">Banner · Official</div>
+              <div class="pin-ov-title">JKJAAC Banner</div>
+              <div class="pin-ov-loc">Jammu & Kashmir</div>
+            </div>
+            <div class="pin-tag">Banner</div>
+            <div class="pin-zoom"><i class="ri-global-line"></i></div>
+          </div>
+          <div class="pin-footer">
+            <span class="pin-footer-title">JKJAAC Banner</span
+            ><span class="pin-footer-loc">Jammu & Kashmir</span>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-empty" id="galleryEmpty">
+        <p>No photos match this filter.</p>
+      </div>
+    </div>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+      <div class="lb-inner">
+        <div class="lb-img-side" id="lbImgWrap"></div>
+        <div class="lb-info-side">
+          <div>
+            <div class="lb-cat" id="lbCat"></div>
+            <div class="lb-title" id="lbTitle"></div>
+            <div class="lb-loc" id="lbLoc"></div>
+            <div class="lb-desc" id="lbDesc"></div>
+          </div>
+          <div class="lb-controls">
+            <div class="lb-counter" id="lbCounter"></div>
+            <div class="lb-nav">
+              <button class="lb-nav-btn" id="lbPrev">
+                <i class="ri-arrow-left-line"></i> Prev
+              </button>
+              <button class="lb-nav-btn" id="lbNext">
+                Next <i class="ri-arrow-right-line"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <button class="lb-close" id="lbClose" aria-label="Close">
+          <i class="ri-close-line"></i>
+        </button>
+      </div>
+    </div>
+    <div class="back-to-top"><i class="ri-arrow-up-s-line"></i></div>
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="f-logo">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/cropped-JKJAAC-Logo.png"
+              alt="JKJAAC LOGO" />
+          </a>
+          <p>
+            Jammu Kashmir Joint Awami Action Committee — a grassroots civil
+            society coalition fighting for economic justice, resource rights,
+            and democratic accountability in Azad Jammu &amp; Kashmir since
+            2022.
+          </p>
+          <div class="social-row">
+            <a href="#0" class="social-btn"><i class="ri-facebook-line"></i></a>
+            <a href="#0" class="social-btn"
+              ><i class="ri-twitter-x-line"></i
+            ></a>
+            <a href="#0" class="social-btn"><i class="ri-youtube-line"></i></a>
+            <a href="#0" class="social-btn"
+              ><i class="ri-instagram-line"></i
+            ></a>
+          </div>
+        </div>
+        <div class="f-col">
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="leadership.html">Leadership</a></li>
+            <li><a href="38-point-charter.html">38-Point Charter</a></li>
+            <li><a href="struggles.html">Major Struggles</a></li>
+          </ul>
+        </div>
+        <div class="f-col">
+          <h4>More</h4>
+          <ul>
+            <li><a href="negotiations.html">Negotiations</a></li>
+            <li>
+              <a href="blogs.html">News &amp; Updates</a>
+            </li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="f-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#0">Facebook</a></li>
+            <li><a href="#0">Twitter / X</a></li>
+            <li><a href="#0">YouTube</a></li>
+            <li><a href="#0">WhatsApp</a></li>
+          </ul>
+        </div>
+        <div class="f-col f-newsletter">
+          <h4>Stay Connected</h4>
+          <p class="newsletter-desc">
+            Stay updated on JKJAAC's campaigns and victories. No spam, ever.
+          </p>
+          <form class="newsletter-form">
+            <div class="newsletter-field">
+              <input
+                aria-label="Email address"
+                placeholder="Your email address"
+                required=""
+                type="email" />
+              <button aria-label="Subscribe" type="submit">
+                <i class="ri-send-plane-fill"></i>
+              </button>
+            </div>
+            <p aria-live="polite" class="newsletter-msg"></p>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025–2026 JKJAAC — Jammu Kashmir Joint Awami Action Committee</p>
+        <p class="pg-index-18">Azad Jammu &amp; Kashmir</p>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"></script>
+
+    <script src="js/bundle.js"></script>
+  </body>
+</html>

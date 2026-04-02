@@ -1,0 +1,904 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us — KFM</title>
+    <link
+      rel="icon"
+      href="https://jkjaac.co/wp-content/uploads/2026/03/cropped-JKJAAC-Logo-192x192.png"
+      sizes="32x32" />
+    <link
+      rel="icon"
+      href="https://kfmovement.com/wp-content/uploads/2025/02/cropped-Rounded-192x192.png"
+      sizes="192x192" />
+    <link
+      rel="apple-touch-icon"
+      href="https://kfmovement.com/wp-content/uploads/2025/02/cropped-Rounded-180x180.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500&family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bundle.css" />
+  </head>
+  <body>
+    <nav class="nav" id="nav">
+      <a href="index.html" class="nav-logo">
+        <img
+          src="https://jkjaac.co/wp-content/uploads/2026/03/cropped-JKJAAC-Logo.png"
+          alt="JKJAAC LOGO" />
+      </a>
+      <div class="nav-default">
+        <ul class="nav-links">
+          <li>
+            <a href="index.html">Home </a>
+          </li>
+          <li class="has-dropdown">
+            <a href="#0"
+              >About
+              <span class="nav-arrow">
+                <i class="ri-arrow-down-s-line"></i>
+              </span>
+            </a>
+            <ul class="dropdown">
+              <li><a href="about.html">About JKJAAC</a></li>
+              <li><a href="leadership.html">Leadership </a></li>
+            </ul>
+          </li>
+          <li><a href="struggles.html">Struggles </a></li>
+          <li>
+            <a href="38-point-charter.html">38-Point Charter </a>
+          </li>
+          <li>
+            <a href="negotiations.html">Negotiations</a>
+          </li>
+
+          <li class="has-dropdown">
+            <a href="#0"
+              >Media
+              <span class="nav-arrow"><i class="ri-arrow-down-s-line"></i></span
+            ></a>
+            <ul class="dropdown">
+              <li><a href="blogs.html">Blogs</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="faqs.html">Faqs</a></li>
+            </ul>
+          </li>
+          <li class="nav-mobile-donate-item">
+            <a class="nav-mobile-donate" href="contact.html"
+              >Contact Us <i class="ri-arrow-right-long-line"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="right-menu">
+        <a class="nav-cta" href="contact.html">
+          contact us
+          <span class="nav-cta-arrow">
+            <i class="ri-arrow-right-long-line"></i>
+          </span>
+        </a>
+        <div class="nav-hamburger" id="navToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-grid"></div>
+      <div class="hero-glow"></div>
+      <div class="hero-rings">
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <div class="ring"></div>
+      </div>
+
+      <svg
+        class="hero-mountains"
+        viewBox="0 0 1440 180"
+        preserveAspectRatio="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M0,180 L0,120 L90,85 L170,105 L270,50 L365,90 L460,35 L548,72 L635,15 L715,60 L808,8 L890,52 L985,14 L1075,58 L1165,22 L1265,65 L1355,38 L1440,70 L1440,180Z" />
+        <path
+          d="M0,180 L0,152 L140,135 L300,148 L460,126 L610,145 L760,122 L900,138 L1040,125 L1180,140 L1320,128 L1440,142 L1440,180Z" />
+      </svg>
+
+      <div class="hero-content">
+        <p class="hero-eyebrow">TALK</p>
+        <h1 class="hero-title">
+          Get in
+          <span class="acc"> Touch</span>
+        </h1>
+        <p class="hero-sub">
+          Media inquiries, solidarity messages, archive contributions, legal
+          support requests, or diaspora chapter contact — reach the movement
+          through the channels below.
+        </p>
+      </div>
+      <div class="scroll-cue">Connect</div>
+    </section>
+
+    <div class="breadcrumb">
+      <a href="index.html">Home</a><span class="bc-sep">›</span>
+      <span class="cur">Contact Us</span>
+    </div>
+    <div aria-hidden="true" class="ticker-wrap">
+      <div class="ticker-track">
+        <div class="ticker-item">JKJAAC — Voice of Azad Kashmir</div>
+        <div class="ticker-item">Economic Justice</div>
+        <div class="ticker-item">₨23 Billion Won — May 2024</div>
+        <div class="ticker-item">31 of 37 Demands Fulfilled — 2026</div>
+        <div class="ticker-item">38-Point Charter of Demands</div>
+        <div class="ticker-item">Fair Electricity Tariffs</div>
+        <div class="ticker-item">Subsidized Wheat Flour</div>
+        <div class="ticker-item">End Elite Privileges</div>
+        <div class="ticker-item">Resource Rights for AJK</div>
+        <div class="ticker-item">جموں کشمیر جوائنٹ عوامی ایکشن کمیٹی</div>
+        <div class="ticker-item">
+          12+ UN Security Council Resolutions on Kashmir
+        </div>
+        <div class="ticker-item">
+          Maqbool Butt — Shaheed-e-Azam — Martyred 11 Feb 1984
+        </div>
+        <div class="ticker-item">
+          Azad Kashmir · Gilgit-Baltistan · IOK · Aksai Chin
+        </div>
+        <div class="ticker-item">Article 370 Abrogated — 5 August 2019</div>
+        <div class="ticker-item">Join KFM — Your Voice, Our Strength</div>
+        <div class="ticker-item">
+          Civil Resistance · Education · Global Advocacy
+        </div>
+      </div>
+    </div>
+
+    <section class="contact-section">
+      <div class="contact-inner">
+        <div class="contact-left sr">
+          <p class="s-label">Reach Out</p>
+          <h2 class="s-title">Questions or<br /><em>Suggestions?</em></h2>
+          <p class="contact-desc">
+            Whether you have a question about our mission, want to volunteer, or
+            are looking to support the Kashmir cause — we are here to listen.
+            Every message matters to us.
+          </p>
+
+          <div class="detail-list">
+            <a
+              href="https://wa.me/+923558153397"
+              target="_blank"
+              class="detail-row">
+              <div class="dr-icon"><i class="ri-chat-1-line"></i></div>
+              <div class="dr-body">
+                <div class="dr-label">WhatsApp</div>
+                <div class="dr-val">+92 1234567891</div>
+              </div>
+              <div class="dr-chevron">›</div>
+            </a>
+            <a href="tel:+923558153397" class="detail-row">
+              <div class="dr-icon"><i class="ri-phone-line"></i></div>
+              <div class="dr-body">
+                <div class="dr-label">Call Us</div>
+                <div class="dr-val">+92 1234567891</div>
+              </div>
+              <div class="dr-chevron">›</div>
+            </a>
+            <a href="mailto:info@kfmovement.com" class="detail-row">
+              <div class="dr-icon"><i class="ri-mail-line"></i></div>
+              <div class="dr-body">
+                <div class="dr-label">Email</div>
+                <div class="dr-val">info@jkjaac.com</div>
+              </div>
+              <div class="dr-chevron">›</div>
+            </a>
+            <div class="detail-row">
+              <div class="dr-icon"><i class="ri-time-line"></i></div>
+              <div class="dr-body">
+                <div class="dr-label">Work Hours</div>
+                <div class="dr-val">Everyday — 08:00 AM to 07:00 PM</div>
+              </div>
+              <div class="dr-chevron pg-contact-2">›</div>
+            </div>
+            <div class="detail-row">
+              <div class="dr-icon"><i class="ri-map-pin-line"></i></div>
+              <div class="dr-body">
+                <div class="pg-leadership-28">Central Committee</div>
+                <div class="dr-label">Muzaffarabad, AJK</div>
+                <div class="dr-val">
+                  All three divisions represented: Muzaffarabad, Poonch &
+                  Mirpur.
+                </div>
+              </div>
+              <div class="dr-chevron pg-contact-1">›</div>
+            </div>
+            <div class="detail-row">
+              <div class="dr-icon"><i class="ri-map-pin-line"></i></div>
+              <div class="dr-body">
+                <div class="pg-leadership-28">Poonch Division</div>
+                <div class="dr-label">Rawalakot — Movement Birthplace</div>
+                <div class="dr-val">
+                  Origin of the 2022 electricity bill protests. Strong trader &
+                  transport union presence.
+                </div>
+              </div>
+              <div class="dr-chevron pg-contact-1">›</div>
+            </div>
+            <div class="detail-row">
+              <div class="dr-icon"><i class="ri-map-pin-line"></i></div>
+              <div class="dr-body">
+                <div class="pg-leadership-28">Mirpur Division</div>
+                <div class="dr-label">Mirpur, AJK</div>
+                <div class="dr-val">
+                  Mangla Dam region — heart of the electricity sovereignty
+                  issue. Strong UK diaspora ties.
+                </div>
+              </div>
+              <div class="dr-chevron pg-contact-1">›</div>
+            </div>
+            <div class="detail-row">
+              <div class="dr-icon"><i class="ri-map-pin-line"></i></div>
+              <div class="dr-body">
+                <div class="pg-leadership-28">UK Diaspora Chapter</div>
+                <div class="dr-label">London & Bradford, UK</div>
+                <div class="dr-val">
+                  Led by Raja Amjad Ali Khan. Solidarity protests, British MP
+                  lobbying, international outreach.
+                </div>
+              </div>
+              <div class="dr-chevron pg-contact-1">›</div>
+            </div>
+          </div>
+          <p class="pg-contact-10">Follow Us</p>
+          <div class="social-row">
+            <a
+              href="https://www.facebook.com/KFMovement"
+              target="_blank"
+              class="social-btn"
+              title="Facebook"
+              ><i class="ri-facebook-fill"></i
+            ></a>
+            <a
+              href="https://twitter.com/kfmovement"
+              class="social-btn"
+              title="Twitter"
+              ><i class="ri-twitter-x-line"></i
+            ></a>
+            <a
+              href="https://youtube.com/@kfmovement"
+              class="social-btn"
+              title="YouTube"
+              ><i class="ri-youtube-line"></i
+            ></a>
+            <a
+              href="https://instagram.com/kfmovement"
+              class="social-btn"
+              title="Instagram"
+              ><i class="ri-instagram-line"></i
+            ></a>
+            <a
+              href="https://wa.me/+923558153397"
+              target="_blank"
+              class="social-btn"
+              title="WhatsApp"
+              ><i class="ri-whatsapp-line"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="contact-right sr sr-d2">
+          <div class="form-header">
+            <p class="s-label">Send a Message</p>
+            <h2 class="s-title pg-contact-11">
+              Fill the Form<br /><em>Below</em>
+            </h2>
+          </div>
+
+          <div id="contactFormWrap">
+            <span class="subject-pill-label">Subject</span>
+            <div class="subject-pills">
+              <button class="subject-pill active" type="button">Press</button>
+              <button class="subject-pill" type="button">Media Archive</button>
+              <button class="subject-pill" type="button">Legal Support</button>
+              <button class="subject-pill" type="button">Solidarity</button>
+              <button class="subject-pill" type="button">Diaspora UK</button>
+              <button class="subject-pill" type="button">General</button>
+            </div>
+
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="field">
+                  <label for="fname">First Name</label>
+                  <input
+                    type="text"
+                    id="fname"
+                    name="fname"
+                    placeholder="Your first name"
+                    autocomplete="given-name" />
+                </div>
+                <div class="field">
+                  <label for="lname">Last Name</label>
+                  <input
+                    type="text"
+                    id="lname"
+                    name="lname"
+                    placeholder="Your last name"
+                    autocomplete="family-name" />
+                </div>
+              </div>
+              <div class="form-row full">
+                <div class="field">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="your@email.com"
+                    autocomplete="email" />
+                </div>
+              </div>
+              <div class="form-row full">
+                <div class="field">
+                  <label for="phone"
+                    >Phone Number
+                    <span class="pg-contact-12">(optional)</span></label
+                  >
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="+92 ..."
+                    autocomplete="tel" />
+                </div>
+              </div>
+              <div class="form-row full">
+                <div class="field">
+                  <label for="message">Your Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Write your message here…"></textarea>
+                </div>
+              </div>
+              <div class="form-submit">
+                <p class="submit-note">
+                  We respond within <strong>24 hours</strong> on working days.
+                </p>
+                <button type="submit" class="btn-submit">
+                  Send Message
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path
+                      d="M1 7h12M8 2l5 5-5 5"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="form-success" id="formSuccess">
+            <div class="success-icon">✓</div>
+            <div class="success-title">Message Sent!</div>
+            <p class="success-sub">
+              Thank you for reaching out. We'll get back to you within 24 hours.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="p-0">
+      <div class="map-frame">
+        <div class="map-frame-inner">
+          <div id="map"></div>
+        </div>
+      </div>
+    </section>
+    <section class="faq-section">
+      <div class="faq-inner">
+        <div class="faq-left sr">
+          <p class="s-label">FAQ</p>
+          <h2 class="s-title">Common<br /><em>Queries</em></h2>
+          <p>
+            At KFM, we believe in transparency and community engagement. Below
+            are answers to frequently asked questions about our mission and how
+            you can get involved.
+          </p>
+          <div class="faq-badge">
+            <span class="dot"></span>9 Questions Answered
+          </div>
+        </div>
+        <div class="faq-list sr sr-d1">
+          <div class="faq-item">
+            <button class="faq-q open" type="button">
+              <span class="faq-q-text"
+                >What is the Jammu Kashmir Joint Awami Action Committee
+                (JKJAAC)?</span
+              >
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a open">
+              <div class="faq-a-inner">
+                The JKJAAC, often abbreviated as JAAC, is a
+                <strong
+                  >grassroots civil-society coalition and socio-political
+                  organization</strong
+                >
+                formed in Pakistan-administered Azad Jammu and Kashmir (AJK). It
+                brings together various civic groups—including traders,
+                transporters, lawyers, and student organizations—to advocate for
+                economic and governance reforms. It emerged from local protests
+                in 2022-2023 and was formalized as a cross-regional body in
+                September 2023.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button">
+              <span class="faq-q-text"
+                >What are the main objectives and demands of the JKJAAC?</span
+              >
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner">
+                The core objective is to address long-standing economic hardship
+                and governance failures in AJK. Its demands are encapsulated in
+                a comprehensive <strong>38-point Charter of Demands</strong>,
+                which broadly falls into two categories:
+                <ul style="margin-top: 8px; padding-left: 20px">
+                  <li>
+                    <strong>Immediate Economic Relief:</strong> Reduction in
+                    electricity tariffs, subsidized wheat flour prices.
+                  </li>
+                  <li>
+                    <strong>Long-term Structural Reforms:</strong> Abolition of
+                    elite privileges for officials, and the removal of the 12
+                    reserved "refugee seats" in the AJK Legislative Assembly.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button">
+              <span class="faq-q-text"
+                >When was the JKJAAC founded and who are its key leaders?</span
+              >
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner">
+                The JKJAAC was officially founded on
+                <strong>September 16, 2023</strong>. Its key leaders include:
+                <ul style="margin-top: 8px; padding-left: 20px">
+                  <li>
+                    <strong>Shoukat Nawaz Mir:</strong> The de facto leader and
+                    Chairman.
+                  </li>
+                  <li>
+                    <strong>Hafeez Hamdani:</strong> The official Spokesperson.
+                  </li>
+                  <li>
+                    <strong>Raja Amjad Ali & Anjum Zaman Awan:</strong> Core
+                    members and negotiators.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button">
+              <span class="faq-q-text"
+                >What were the major protest movements organized by the
+                JKJAAC?</span
+              >
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner">
+                The JKJAAC has organized two major waves of widespread unrest:
+                <ul style="margin-top: 8px; padding-left: 20px">
+                  <li>
+                    <strong>May 2024 Protests:</strong> A six-day wave of
+                    protests over rising inflation and electricity prices that
+                    led to a government subsidy package.
+                  </li>
+                  <li>
+                    <strong>September-October 2025 Protests:</strong> A more
+                    intense movement involving an indefinite "lockdown" strike,
+                    which resulted in a communications blackout, deadly clashes,
+                    and ultimately a landmark agreement with the government.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button">
+              <span class="faq-q-text"
+                >What was the outcome of the 2025 protests and agreement with
+                the government?</span
+              >
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner">
+                The October 2025 protests ended with a landmark agreement signed
+                on <strong>October 4, 2025</strong>. Key outcomes included
+                compensation for families of those killed, a reduction of
+                cabinet ministers from 36 to 20, reinstatement of the Local
+                Government Act of 1990, and the formation of a constitutional
+                committee to decide on the issues of refugee seats and elite
+                privileges.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button">
+              <span class="faq-q-text"
+                >What is the current status of the agreement's
+                implementation?</span
+              >
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner">
+                As of early 2026, the government reports that
+                <strong>31 out of 37 points</strong> in the agreement have been
+                completed or are progressing. However, the JKJAAC has expressed
+                concerns about the slow progress on core political issues, such
+                as the abolition of refugee seats, and has called for continued
+                dialogue to ensure all structural demands are met.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button">
+              <span class="faq-q-text"
+                >Why are the "12 refugee seats" such a controversial
+                issue?</span
+              >
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner">
+                The 12 reserved seats for Kashmiri refugees are controversial
+                because the JKJAAC views them as an
+                <strong>undemocratic tool</strong> that allows federal influence
+                over AJK's politics. Critics argue these representatives
+                monopolize development funds and political patronage at the
+                expense of the local population. The government's reluctance to
+                abolish them stems from its desire to maintain a constitutional
+                link with refugees originally from Indian-administered Kashmir.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button">
+              <span class="faq-q-text"
+                >How has the Pakistani government responded to the JKJAAC
+                movement?</span
+              >
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner">
+                The government's response has been two-pronged:
+                <ul style="margin-top: 8px; padding-left: 20px">
+                  <li>
+                    <strong>Dialogue and Concessions:</strong> High-level
+                    delegations have held talks resulting in significant
+                    economic packages and signed agreements.
+                  </li>
+                  <li>
+                    <strong>Security and Control:</strong> During intense
+                    protests, authorities have resorted to arresting leaders and
+                    imposing communications blackouts to maintain public order.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button">
+              <span class="faq-q-text"
+                >Where can I find more detailed information about JKJAAC?</span
+              >
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner">
+                For further details, you can refer to news reports from
+                reputable Pakistani and international news agencies (such as the
+                Associated Press of Pakistan), independent analyses from
+                publications like The News International, or the comprehensive
+                overview available on the JKJAAC Wikipedia page.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="back-to-top"><i class="ri-arrow-up-s-line"></i></div>
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="f-logo">
+            <img
+              src="https://jkjaac.co/wp-content/uploads/2026/03/cropped-JKJAAC-Logo.png"
+              alt="JKJAAC LOGO" />
+          </a>
+          <p>
+            Jammu Kashmir Joint Awami Action Committee — a grassroots civil
+            society coalition fighting for economic justice, resource rights,
+            and democratic accountability in Azad Jammu &amp; Kashmir since
+            2022.
+          </p>
+          <div class="social-row">
+            <a href="#0" class="social-btn"><i class="ri-facebook-line"></i></a>
+            <a href="#0" class="social-btn"
+              ><i class="ri-twitter-x-line"></i
+            ></a>
+            <a href="#0" class="social-btn"><i class="ri-youtube-line"></i></a>
+            <a href="#0" class="social-btn"
+              ><i class="ri-instagram-line"></i
+            ></a>
+          </div>
+        </div>
+        <div class="f-col">
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="leadership.html">Leadership</a></li>
+            <li><a href="38-point-charter.html">38-Point Charter</a></li>
+            <li><a href="struggles.html">Major Struggles</a></li>
+          </ul>
+        </div>
+        <div class="f-col">
+          <h4>More</h4>
+          <ul>
+            <li><a href="negotiations.html">Negotiations</a></li>
+            <li>
+              <a href="blogs.html">News &amp; Updates</a>
+            </li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="f-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#0">Facebook</a></li>
+            <li><a href="#0">Twitter / X</a></li>
+            <li><a href="#0">YouTube</a></li>
+            <li><a href="#0">WhatsApp</a></li>
+          </ul>
+        </div>
+        <div class="f-col f-newsletter">
+          <h4>Stay Connected</h4>
+          <p class="newsletter-desc">
+            Stay updated on JKJAAC's campaigns and victories. No spam, ever.
+          </p>
+          <form class="newsletter-form">
+            <div class="newsletter-field">
+              <input
+                aria-label="Email address"
+                placeholder="Your email address"
+                required=""
+                type="email" />
+              <button aria-label="Subscribe" type="submit">
+                <i class="ri-send-plane-fill"></i>
+              </button>
+            </div>
+            <p aria-live="polite" class="newsletter-msg"></p>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025–2026 JKJAAC — Jammu Kashmir Joint Awami Action Committee</p>
+        <p class="pg-index-18">Azad Jammu &amp; Kashmir</p>
+      </div>
+    </footer>
+
+    <script src="https://use.fontawesome.com/releases/v6.2.0/js/all.js"></script>
+    <script>
+      "use strict";
+      async function initMap() {
+        const { Map } = await google.maps.importLibrary("maps");
+        const { AdvancedMarkerElement } =
+          await google.maps.importLibrary("marker");
+        const center = { lat: 33.5, lng: 73.7 };
+        const map = new Map(document.getElementById("map"), {
+          zoom: 8,
+          center: center,
+          mapId: "4504f8b37365c3d0",
+        });
+
+        for (const property of properties) {
+          const advancedMarkerElement =
+            new google.maps.marker.AdvancedMarkerElement({
+              map,
+              content: buildContent(property),
+              position: property.position,
+              title: property.description,
+            });
+
+          advancedMarkerElement.addListener("click", () => {
+            toggleHighlight(advancedMarkerElement);
+          });
+        }
+      }
+
+      function toggleHighlight(markerView) {
+        if (markerView.content.classList.contains("highlight")) {
+          markerView.content.classList.remove("highlight");
+          markerView.zIndex = null;
+        } else {
+          markerView.content.classList.add("highlight");
+          markerView.zIndex = 1;
+        }
+      }
+
+      function buildContent(property) {
+        const content = document.createElement("div");
+        content.classList.add("property");
+
+        let additionalInfo = "";
+
+        if (property.category) {
+          additionalInfo += `<div>${property.category}</div>`;
+        }
+
+        if (property.area) {
+          additionalInfo += `<div> Area: ${property.area}</div>`;
+        }
+
+        let featuresHtml = "";
+        if (property.features && property.features.length > 0) {
+          featuresHtml = '<div class="feature-tags">';
+          property.features.forEach((feature) => {
+            featuresHtml += `<span class="feature-tag">${feature}</span>`;
+          });
+          featuresHtml += "</div>";
+        }
+
+        content.innerHTML = `
+                            <div class="icon">
+                                <i aria-hidden="true" class="fa fa-icon fa-${property.type}" title="${property.type}"></i>
+                                <span class="fa-sr-only">${property.type}</span>
+                            </div>
+                            <div class="details">
+                                <div class="address">${property.address}</div>
+                                <div class="description">
+                                  <i class="fa fa-info-circle"></i>
+                                  <span>${property.description}</span>
+                                </div>
+                                ${
+                                  additionalInfo
+                                    ? `
+                                <div class="additional-info">
+                                  ${additionalInfo}
+                                </div>
+                                `
+                                    : ""
+                                }
+                                ${featuresHtml}
+                            </div>
+                          `;
+
+        return content;
+      }
+
+      const properties = [
+        {
+          address: "Muzaffarabad City Center, AJK",
+          description:
+            "All three divisions represented: Muzaffarabad, Poonch & Mirpur.",
+          type: "building",
+          category: "Central Committee",
+          position: {
+            lat: 34.37,
+            lng: 73.47,
+          },
+        },
+        {
+          address: "Rawalakot, AJK - Pearl Valley",
+          description:
+            "Origin of the 2022 electricity bill protests. Strong trader & transport union presence.",
+          type: "home",
+          category: "Rawalakot — Movement Birthplace",
+          position: {
+            lat: 33.8578,
+            lng: 73.7594,
+          },
+        },
+        {
+          address: "Mirpur, AJK - New City",
+          description:
+            "Mangla Dam region — heart of the electricity sovereignty issue. Strong UK diaspora ties.",
+          type: "warehouse",
+          category: "Mirpur, AJK",
+          position: {
+            lat: 33.148,
+            lng: 73.748,
+          },
+        },
+      ];
+
+      ((g) => {
+        var h,
+          a,
+          k,
+          p = "The Google Maps JavaScript API",
+          c = "google",
+          l = "importLibrary",
+          q = "__ib__",
+          m = document,
+          b = window;
+        b = b[c] || (b[c] = {});
+        var d = b.maps || (b.maps = {}),
+          r = new Set(),
+          e = new URLSearchParams(),
+          u = () =>
+            h ||
+            (h = new Promise(async (f, n) => {
+              await (a = m.createElement("script"));
+              e.set("libraries", [...r] + "");
+              for (k in g)
+                e.set(
+                  k.replace(/[A-Z]/g, (t) => "_" + t[0].toLowerCase()),
+                  g[k],
+                );
+              e.set("callback", c + ".maps." + q);
+              a.src = `https://maps.${c}apis.com/maps/api/js?` + e;
+              d[q] = f;
+              a.onerror = () => (h = n(Error(p + " could not load.")));
+              a.nonce = m.querySelector("script[nonce]")?.nonce || "";
+              m.head.append(a);
+            }));
+        d[l]
+          ? console.warn(p + " only loads once. Ignoring:", g)
+          : (d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)));
+
+        u()
+          .then(() => {
+            initMap();
+          })
+          .catch((error) => {
+            console.error("Failed to load Google Maps API:", error);
+          });
+      })({
+        key: "AIzaSyA6myHzS10YXdcazAFalmXvDkrYCp5cLc8",
+        v: "weekly",
+        internalUsageAttributionIds: "gmp_git_jsapisamples_v1_advanced-markers",
+      });
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"></script>
+
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
